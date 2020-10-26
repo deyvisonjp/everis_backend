@@ -2,4 +2,4 @@
 
 ## Projetos desenvolvidos durante o bootcamp
 
-- Clone Instagram - HTML e CSS
+- Recriando a página inicial do Instagram - HTML e CSS

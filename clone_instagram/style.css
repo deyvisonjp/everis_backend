@@ -34,7 +34,7 @@ body {
 }
 
 .instagram-phone img {
-  height: 40rem;
+  height: 50rem;
 }
 
 .instagram-continue {
@@ -43,7 +43,8 @@ body {
   justify-content: space-around;
   flex-direction: column;
   width: 50%;
-  min-height: 35rem;
+  min-height: 40rem;
+  margin-left: 1rem;
 }
 
 .group {
@@ -59,7 +60,7 @@ body {
 
 /* Apenas o primeiro elemento droup */
 .group:nth-child(1) {
-  min-height: 19rem;
+  min-height: 20rem;
 }
 
 instagram-logo {
@@ -72,7 +73,7 @@ instagram-logo {
   align-items: center;
   border-radius: 50%;
   overflow: hidden;
-  height: 6rem;
+  height: 7rem;
 }
 
 .instagram-login {
@@ -124,4 +125,23 @@ instagram-logo {
 
 .app-download:nth-child(2) {
   background-image: url('./img/Play-Store-Logo.png');
+}
+
+@media (max-width: 720px) {
+  .instagram-wrapper {
+    width: 90%;
+  }
+
+  .instagram-phone {
+    display: none;
+  }
+
+  .instagram-continue {
+    width: 100%;
+  }
+
+  .group {
+    border: none;
+  }
+
 }

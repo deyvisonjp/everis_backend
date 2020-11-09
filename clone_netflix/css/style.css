@@ -14,6 +14,7 @@
 body {
     background: var(--preto);
     font-family: 'Turret Road', sans-serif;
+    color: white;
 }
 
 header .container{
@@ -39,3 +40,26 @@ header nav a {
 header nav a:hover {
     color: #fff;
 }
+
+/* Filme principal 
+IMG RETIRADAS DE . . . https://www.themoviedb.org/?language=pt-BR */
+.filme-principal {
+    font-size: 1em;
+    background: linear-gradient(rgba(0,0,0,.60), rgba(0,0,0,.60)100%), url('../img/card_good_doctor.jpg');
+    background-size: cover;
+    height: 400px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.titulo {
+    font-size: 2em;
+}
+
+.filme-principal .descricao {
+    margin-bottom: 40px;
+}
+

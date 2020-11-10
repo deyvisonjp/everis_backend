@@ -2,39 +2,39 @@
 
 :root {
     --vermelho: #e50914;
-    --preto: #141414;
+    --preto   : #141414;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin     : 0;
+    padding    : 0;
+    box-sizing : border-box;
     font-family: 'Turret Road', sans-serif;
 }
 
 body {
     background: var(--preto);
-    color: white;
+    color     : white;
 }
 
-header .container{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+header .container {
+    display        : flex;
+    flex-direction : row;
+    align-items    : center;
     justify-content: space-between;
-    margin: 0 1rem;
+    margin         : 0 1rem;
 }
 
 header .logo {
-    color: var(--vermelho);
+    color      : var(--vermelho);
     font-family: 'Prompt', sans-serif;
-    font-size: 40px;
+    font-size  : 40px;
 }
 
 header nav a {
     text-decoration: none;
-    color: #AAA;
-    margin-right: 10px;
+    color          : #AAA;
+    margin-right   : 10px;
 }
 
 header nav a:hover {
@@ -48,16 +48,17 @@ IMG RETIRADAS DE . . . https://www.themoviedb.org/?language=pt-BR */
 }
 
 .filme-principal {
-    font-size: 1em;
-    background: linear-gradient(rgba(0,0,0,.60), rgba(0,0,0,.60)100%), url('../img/card_good_doctor.jpg');
+    font-size      : 1em;
+    background     : linear-gradient(rgba(0, 0, 0, .60), rgba(0, 0, 0, .60)100%), url('../img/card_good_doctor.jpg');
     background-size: cover;
-    height: 28rem;
-    
-    display: flex;
-    flex-direction: column;
+    height         : 28rem;
+
+    display        : flex;
+    flex-direction : column;
     justify-content: flex-end;
-    align-items: flex-start;
-    padding: 0.5rem 1.5rem;    
+    align-items    : flex-start;
+    padding        : 0.5rem 1.5rem;
+    border-bottom: 1px solid red;
 }
 
 .titulo {
@@ -67,25 +68,43 @@ IMG RETIRADAS DE . . . https://www.themoviedb.org/?language=pt-BR */
 .filme-principal .descricao {
     margin-bottom: 40px;
 }
-.filme-principal button {
-    background-color: rgba(0,0,0,.50);
-    border: none;
-    text-transform: uppercase;
-    color: white;
-    font-size: 0.8em;
 
-    padding: 15px 30px;
+.filme-principal button {
+    background-color: rgba(0, 0, 0, .50);
+    border          : none;
+    text-transform  : uppercase;
+    color           : white;
+    font-size       : 0.8em;
+
+    padding     : 15px 30px;
     margin-right: 15px;
 
-    cursor: pointer;
+    cursor    : pointer;
     transition: 0.3s ease all;
 }
 
 .filme-principal button:hover {
     background-color: white;
-    color: black;
+    color           : black;
 }
 
 .filme-principal button i {
     margin-right: 8px;
+}
+
+.carousel h2 {
+    text-align : center;
+    text-transform: uppercase;
+    color: white;
+    padding    : 10px;
+}
+
+.box-filme {
+    height : 100%;
+    width  : 100%;
+    display: block;
+}
+
+.carousel {
+    margin: 10px 0;
 }

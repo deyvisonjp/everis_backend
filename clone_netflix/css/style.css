@@ -43,6 +43,10 @@ header nav a:hover {
 
 /* Filme principal 
 IMG RETIRADAS DE . . . https://www.themoviedb.org/?language=pt-BR */
+.filme-principal .container {
+    width: 60%;
+}
+
 .filme-principal {
     font-size: 1em;
     background: linear-gradient(rgba(0,0,0,.60), rgba(0,0,0,.60)100%), url('../img/card_good_doctor.jpg');
@@ -53,7 +57,7 @@ IMG RETIRADAS DE . . . https://www.themoviedb.org/?language=pt-BR */
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
-    padding: 0.5rem 1.5rem;
+    padding: 0.5rem 1.5rem;    
 }
 
 .titulo {
